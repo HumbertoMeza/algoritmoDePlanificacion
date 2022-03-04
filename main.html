@@ -1,0 +1,110 @@
+<!-- APARTADO GRAFICO -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmos de planificación</title>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='css/normalize.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=PT+Sans&display=swap"
+    rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/estilos.css'>
+    <script type="module" src="FND.js"></script>
+</head>
+<body>
+ 
+<header>
+    <h1>Algoritmos de planificación</h1>
+</header>
+
+<section>
+
+<div class="contenedor">
+    <div class="contenedor-menu">
+        <div class="Algoritmo">
+            <select id="opciones-algoritmo">
+                <option value="" disabled selected>-- Seleccione --</option>
+                <option value="fcfs">FCFS</option>
+                <option value="sjf">SJF</option>
+                <option value="srt">SRT</option>
+                <option value="prioridades">Prioridades</option>
+                <option value="round-robin">Round Robin</option>
+            </select>
+        </div>
+        
+        <div class="contenedor-de-procesos">  
+            <!-- <div class="cuadro-proceso">
+                <p>Proceso WORD</p>
+                <p>Rafaga 25</p>
+                <p>Llegada 0</p>
+                <p>prioridad 5</p>
+            </div>
+            <div class="cuadro-proceso">
+                <p>Proceso EXCEL</p>
+                <p>Rafaga 10</p>
+                <p>Llegada 4</p>
+                <p>prioridad 1</p>
+            </div>
+            <div class="cuadro-proceso">
+                <p>Proceso POWERPOINT</p>
+                <p>Rafaga 10</p>
+                <p>Llegada 3</p>
+                <p>prioridad 1</p>
+            </div>
+            <div class="cuadro-proceso">
+                <p>Proceso PHOTOSHOP</p>
+                <p>Rafaga 4</p>
+                <p>Llegada 2</p>
+                <p>prioridad 2</p>
+            </div>
+            <div class="cuadro-proceso">
+                <p>Proceso PAINT</p>
+                <p>Rafaga 4</p>
+                <p>Llegada 1</p>
+                <p>prioridad 3</p>
+            </div> -->
+        </div>
+
+        <div class="contenedor-boton">
+            <input type="submit" value="Añadir" class="boton boton-añadir" id="boton-añadir">
+        </div>
+
+        <div class="contenedor-boton">
+            <input type="submit" value="Calcular" class="boton" id="boton-calcular">
+        </div>
+        
+
+    </div>
+    <div class="contenedor-tabla">
+        <table class="tabla">
+            <thead>
+                <tr >
+
+                    <th> Procesos </th>
+       
+                    <th>Tiempo de espera</th>
+             
+                    <th>Tiempo de respuesta</th>
+             
+                    <th>Tiempo de permanencia</th>
+                 
+               </tr>
+            </thead>
+            <tbody class="tbody">
+            </tbody>
+
+        </table>
+    </div>
+    <div class="contenedor-diagrama-gantt">
+        <p>Gráfica</p>
+        <table class="diagrama">
+        </table>
+    </div>
+</div>
+</section>
+
+
+</body>
+</html>

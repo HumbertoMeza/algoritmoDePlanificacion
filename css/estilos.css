@@ -1,0 +1,142 @@
+html {
+    box-sizing: border-box;
+
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  header{
+      background-color: #63EFF5;
+  }
+
+  h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    margin: 0;
+    text-align: center;
+    padding:20px 0;
+    text-transform: uppercase;
+  }
+
+  .contenedor{
+      max-width: 1200px;
+      margin: 0 auto;
+      margin-top: 20px; 
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+  .contenedor-menu{
+      /* background-color: darkgoldenrod; */
+      max-width: 350px;
+      border: 1px black solid;
+  }
+  .Algoritmo{
+    text-align: center;
+    margin: 10px 0 5px 0;
+  }
+  .contenedor-menu > div > p {
+    color: blue;
+    margin: 10px 0;
+    text-transform: uppercase;
+    border: 1px #e0e0e0 solid;
+    padding: 10px 30px;
+    display: inline-block;
+  }
+  .contenedor-de-procesos{
+      margin: 0 10px;
+      width: 300px;
+  }
+  .cuadro-proceso{
+      border-bottom: 1px #333333 solid;
+      padding-bottom: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  .cuadro-proceso:last-child{
+      border-bottom: none;
+  }
+  .cuadro-proceso p{
+      flex: 1 0 50%;
+      text-align: center;
+      margin: 10px 0;
+      text-transform: capitalize;
+      
+  }
+  .contenedor-boton{
+      text-align: center;
+  }
+ 
+  .contenedor-tabla{
+      max-width: 800px;
+      flex: 3 0 auto;
+  }
+  .boton{
+    padding: 10px 30px;
+    margin: 10px 0 20px 0;
+    display: inline-block;
+    background-color: #F53025;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+.boton:active{
+    background-color: #F5F8F3;
+}
+.boton-añadir{
+    background-color: #3AF02E;
+}
+  /* .tabla{
+
+  } */
+  /* tr{
+    
+  } */
+  td{
+    padding: 10px;
+    text-align: center;
+    color: #4a4a4a;
+    border: 2px #e0e0e0 solid;
+    }
+th{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: black;
+    background-color: #c9c9c9;
+    border: 2px #e0e0e0 solid;
+    padding:20px 20px;
+}
+.contenedor-diagrama-gantt{
+    overflow-y: hidden; 
+    overflow-x:auto;
+    height: auto;
+    max-width: auto;
+}
+.contenedor-diagrama-gantt > p{
+    text-align: left;
+
+}
+.diagrama{
+    max-width: auto;
+}  
+.fila-numeros > th{
+    text-align: center;
+}
+.fila-diagrama > td{
+    text-align: center;
+    color: white;
+}
+
+
+
+
